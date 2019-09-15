@@ -57,6 +57,10 @@ Fig. 4 demonstrates the final stage of assembling an NCTU-Cheetah robot. The lef
 ![image](https://github.com/kuanyusu/NCTU-Cheetah/blob/master/fig.4.jpg)
 Fig. 4 Final assembly
 
+In the testing, an NCTU-Cheetah robot had equipped 12 SGS-215 servo motors. Each SGS-215 servo motor has 17 kg-cm peak stall torque and can be inter-connected (including power and data lines) in a daisy-chain style to up to theoretically 253 devices. This eases the assembly works significantly. 12 SGS-215 spend about 150 US$, and the full BOM of an NCTU-Cheetah robot costs about  260 US$.
+
+The motor control software was programmed in Python language and running on the Raspberry Pi 3 module. A Python class encapsulating the details of low-level communication with the SGS215 servo motors had been designed to provide convenient high-level motor control commands. Another Python class based on scipy.integrate.odeint, an ordinary differential equations solver package, had been developed to realize the CPG algorithm. Since Raspberry Pi 3 is not capable to generate the CPG trajectories in real-time, in the testing all CPG trajectories would be generated in advance.
+
 
 ## Appendix - Testing Videos
 (1)Trot gait moving test: https://reurl.cc/xD0564
