@@ -15,14 +15,14 @@ I printed all mechanical links using a low-cost 3D printer, and the type of 3D p
 
 Fig. 3 shows four completely assembled ASLP legs ready to be installed on hip motors. The left two are forelegs, and the rest are hind legs.
 
-![image]()
+![image](https://github.com/kuanyusu/NCTU-Cheetah/blob/master/fig.3.jpg)
 Fig. 3 Four completely assembled ASLP legs
 
 
 Fig. 4 demonstrates the final stage of assembling an NCTU-Cheetah robot. The left-top shows the mechanism of Bowden cabling (knee motor, pulleys, and fishing wire). The right-top shows the mechanism of a horn link and a puller link that can rotate (tilt) the whole hip-knee motor frame and the attached ASLP leg. It is why NCTU-Cheetah robot could turn efficiently. The left-bottom is the Raspberry Pi 3 module, it controls a total of 12 servo motors using its UART interface. The left-bottom is the completely assembled  NCTU-Cheetah robot. The white box behind the Raspberry Pi 3 module stores the lithium battery stack (12V) that providing the power for all servo motors and Raspberry Pi 3 module. We also need a voltage regulator module that converting 12V input to 5V and 6V outputs for driving Raspberry Pi 3 and servo motors individually.
 
 ![image](https://github.com/kuanyusu/NCTU-Cheetah/blob/master/fig.4.jpg)
-Final assembly
+Fig. 4 Final assembly
 
 In the testing, an NCTU-Cheetah robot had equipped 12 SGS-215 servo motors. Each SGS-215 servo motor has 17 kg-cm peak stall torque and can be inter-connected (including power and data lines) in a daisy-chain style to up to theoretically 253 devices. This eases the assembly works significantly. 12 SGS-215 spend about 150 US$, and the full BOM of an NCTU-Cheetah robot costs about  260 US$.
 
