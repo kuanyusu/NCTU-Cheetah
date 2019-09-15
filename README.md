@@ -23,7 +23,7 @@ Fig. 1 An NCTU-Cheetah robot model in V-REP.
 
 After many iterations of trial-and-error, e.g. adjusting link dimensions/spring coefficients and validating the plausibility of the adopted CPG motor control algorithm, I started to print all mechanical links using a low-cost 3D printer. The servo motors and other necessary parts (bolts, nuts, bearings, springs, etc.) were all bought from online hardware stores in Taiwan (Misumi, Ruten) or China (Taobao).  The final assembled NCTU-Cheetah robot is shown in Fig. 2.
 
-![image]
+![image](https://github.com/kuanyusu/NCTU-Cheetah/blob/master/fig.2.jpg)
 Fig. 2  The assembled NCTU-Cheetah robot.
 
 This report contains 7 sections: Section 2 references the most important literature that influence this project. Section 3 illustrates the mechanical design of NCTU-Cheetah robot. Section 4 explains how to generate CPG motor control trajectories. Section 5 describes the strategies to correctly simulate a compliant robot like NCTU-Cheetah in V-REP. Section 6 demonstrates how to assemble a real NCTU-Cheetah robot. Section 7 gives some preliminary motion testings on the robot to confirm the plausibility of the current design.
