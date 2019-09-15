@@ -37,7 +37,7 @@ There are four main factors that lead NCTU-Cheetah robot’s mechanical design:
 
 > (4) Enhance the structure strength of 3D printed links. Simply put, NCTU-Cheetah’s mechanical complexity and weight are between EPFL-CheetahCub and Oncilla.  
 
-![image](https://github.com/kuanyusu/NCTU-Cheetah/blob/master/fig3.JPG)
+![image](https://github.com/kuanyusu/NCTU-Cheetah/blob/master/fig.3.jpg)
 Fig. 3 illustrates the front view and the side view of NCTU-Cheetah robot. The dimensions of NCTU-Cheetah robot is about 18cm (W) x 24cm (H) x 30cm (L) when it stands still. The weight (including 12 servo motors) of a real NCTU-Cheetah robot is 1.6Kg. The detailed geometric information of every mechanical link can be checked by importing the open sourced V-REP scene file (*.ttt) into V-REP simulator by readers.
   
 ## V-REP Simulation
@@ -54,7 +54,7 @@ I printed all mechanical links using a low-cost 3D printer, and the type of 3D p
 
 Fig. 4 demonstrates the final stage of assembling an NCTU-Cheetah robot. The left-top shows the mechanism of Bowden cabling (knee motor, pulleys, and fishing wire). The right-top shows the mechanism of a horn link and a puller link that can rotate (tilt) the whole hip-knee motor frame and the attached ASLP leg. It is why NCTU-Cheetah robot could turn efficiently. The left-bottom is the Raspberry Pi 3 module, it controls a total of 12 servo motors using its UART interface. The left-bottom is the completely assembled  NCTU-Cheetah robot. The white box behind the Raspberry Pi 3 module stores the lithium battery stack (12V) that providing the power for all servo motors and Raspberry Pi 3 module. We also need a voltage regulator module that converting 12V input to 5V and 6V outputs for driving Raspberry Pi 3 and servo motors individually.
 
-![image]
+![image](https://github.com/kuanyusu/NCTU-Cheetah/blob/master/fig.4.jpg)
 Fig. 4 Final assembly
 
 
