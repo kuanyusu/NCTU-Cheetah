@@ -1,14 +1,7 @@
 # NCTU-Cheetah
 
 ## Abstract
-In this project, a compliant leg mechanism for low-cost quadruped pet robots had
-been studied and built. Inspired by the published literature from EPFL-Cheetah and
-Oncilla robots, a new quadruped robot NCTU-Cheetah based on the compliant leg
-mechanism mentioned above had been realized too. NCTU-Cheetah robot relies on
-the Central Pattern Generator (CPG) algorithm to control its 12 servo motors,
-including 4 tilt motors that allow hip adduction and abduction. The V-REP simulation
-model of NCTU-Cheetah robot, CPG program, and other helper utilities were open
-sourced here. 
+In this project, a compliant leg mechanism for low-cost quadruped pet robots had been studied and built. Inspired by the published literature from EPFL-Cheetah and Oncilla robots, a new quadruped robot NCTU-Cheetah based on the compliant leg mechanism mentioned above had been realized too. NCTU-Cheetah robot relies on the Central Pattern Generator (CPG) algorithm to control its 12 servo motors, including 4 tilt motors that allow hip adduction and abduction. The V-REP simulation model of NCTU-Cheetah robot, CPG program, and other helper utilities were open sourced here. 
 
 ## Introduction
 Legged robots have stronger abilities to move in non-flat terrain than the wheeled robots. The compliant leg mechanism has the following three superiorities with respect to the rigid leg mechanism in terms of robot motion:  
@@ -19,8 +12,10 @@ Legged robots have stronger abilities to move in non-flat terrain than the wheel
 
 > ● Robustness: The compliant leg structure has a high tolerance to the motion disturbances imposed by the real world.  
 
-The superiorities mentioned above can be seen in many mammals, including humans. 
-The motivation of this project is to design a compliant leg mechanism suitable for low-cost quadruped pet robots. With this compliant leg mechanism, it has the advantages of low complexity, easy assembly, and quick walking.
+The superiorities mentioned above can be seen in many mammals, including humans.
+
+The motivation of this project is to design a compliant leg mechanism suitable for low-cost quadruped pet robots. With this compliant leg mechanism, it has the advantages of low complexity, easy assembly, and quick walking.  
+
 In this project, EPFL-Cheetah robot, Oncilla robot and other total eight compliant quadruped robots had been studied deeply at first to acquire enough technical background for the subsequent development of my own NCTU-Cheetah robot. The preliminary mechanical design of NCTU-Cheetah robot was mainly inspired by the published literature from EPFL-Cheetah and Oncilla robots. NCTU-Cheetah’s mechanical design was finished using SolidWorks, and the URDF-format robot description file about NCTU-Cheetah was then imported, modified and simulated in V-REP robot simulator as Fig. 1.  
  
 ![image](https://github.com/kuanyusu/NCTU-Cheetah/blob/master/fig.1.jpg)
