@@ -9,3 +9,4 @@ including 4 tilt motors that allow hip adduction and abduction. The V-REP simula
 model of NCTU-Cheetah robot, CPG program, and other helper utilities were open
 sourced here. 
 
+# Introduction
