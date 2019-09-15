@@ -11,9 +11,9 @@ sourced here.
 
 # Introduction
 Legged robots have stronger abilities to move in non-flat terrain than the wheeled robots. The compliant leg mechanism has the following three superiorities with respect to the rigid leg mechanism in terms of robot motion:  
-●	Efficiency: Using mechanical energy storage/release to improve the energy efficiency of motion.  
-●	Simplification: Using the self-balanced relationship of overall geometry and dynamic structures between the compliant legs and torso to reduce the complexity of gait controller design.  
-●	Robustness: The compliant leg structure has a high tolerance to the motion disturbances imposed by the real world.  
+  ●	Efficiency: Using mechanical energy storage/release to improve the energy efficiency of motion.  
+  ●	Simplification: Using the self-balanced relationship of overall geometry and dynamic structures between the compliant legs and torso     to reduce the complexity of gait controller design.  
+  ●	Robustness: The compliant leg structure has a high tolerance to the motion disturbances imposed by the real world.  
 The superiorities mentioned above can be seen in many mammals, including humans. 
 The motivation of this project is to design a compliant leg mechanism suitable for low-cost quadruped pet robots. With this compliant leg mechanism, it has the advantages of low complexity, easy assembly, and quick walking.
 In this project, EPFL-Cheetah [1-3] robot, Oncilla [4] robot and other total eight compliant quadruped robots had been studied deeply at first to acquire enough technical background for the subsequent development of my own NCTU-Cheetah robot. The preliminary mechanical design of NCTU-Cheetah robot was mainly inspired by the published literature from EPFL-Cheetah and Oncilla robots. NCTU-Cheetah’s mechanical design was finished using SolidWorks, and the URDF-format robot description file about NCTU-Cheetah was then imported, modified and simulated in V-REP [7] robot simulator as Fig. 1.
