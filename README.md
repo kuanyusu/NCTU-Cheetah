@@ -48,3 +48,5 @@ NCTU-Cheetah’s mechanical design was completed using SolidWorks, and the Solid
 With integrated development environment, V-REP is based on a distributed control architecture: each object/model can be individually controlled via an embedded script, a plugin, a ROS node, a remote API client, or a custom solution. This makes V-REP very versatile and ideal for multi-robot applications. Controllers can be written in C/C++, Python, Java, Lua, Matlab, Octave or Urbi.
 
 V-REP's dynamics module (PRO EDU version 3.4.0) currently supports four different physics engines: the Bullet physics library, the Open Dynamics Engine, the Vortex Dynamics engine, and the Newton Dynamics engine. The reason for this diversity in physics engine support is that physics simulation is a complex task, that can be achieved with various degrees of precision, speed, or with the support of diverse features. In this project, we chose the popular Bullet engine.
+
+## Appendix - Testing Videos
