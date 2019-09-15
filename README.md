@@ -49,4 +49,13 @@ With integrated development environment, V-REP is based on a distributed control
 
 V-REP's dynamics module (PRO EDU version 3.4.0) currently supports four different physics engines: the Bullet physics library, the Open Dynamics Engine, the Vortex Dynamics engine, and the Newton Dynamics engine. The reason for this diversity in physics engine support is that physics simulation is a complex task, that can be achieved with various degrees of precision, speed, or with the support of diverse features. In this project, we chose the popular Bullet engine.
 
+## Assembly & Testing
+
 ## Appendix - Testing Videos
+(1)Trot gait moving test: https://reurl.cc/xD0564
+
+(2)Turning test: https://reurl.cc/alvOLD
+
+(3)Trot gait simulation: https://reurl.cc/rl8yry
+
+(4)Bound gait simulation: https://reurl.cc/D16zjd
