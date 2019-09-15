@@ -26,4 +26,9 @@ After many iterations of trial-and-error, e.g. adjusting link dimensions/spring 
 ![image](https://github.com/kuanyusu/NCTU-Cheetah/blob/master/fig.2.jpg)
 Fig. 2  The assembled NCTU-Cheetah robot.  
 
-This report contains 7 sections: Section 2 references the most important literature that influence this project. Section 3 illustrates the mechanical design of NCTU-Cheetah robot. Section 4 explains how to generate CPG motor control trajectories. Section 5 describes the strategies to correctly simulate a compliant robot like NCTU-Cheetah in V-REP. Section 6 demonstrates how to assemble a real NCTU-Cheetah robot. Section 7 gives some preliminary motion testings on the robot to confirm the plausibility of the current design.
+## Mechanical Design
+There are four main factors that lead NCTU-Cheetah robot’s mechanical design: (1) Make the limb ratio close to a real cheetah cub. (2)  Have an ASLP compliant leg mechanism like EPFL-CheetahCub robot. (3)  Have a turning mechanism similar to Oncilla Robot. (4) Enhance the structure strength of 3D printed links. Simply put, NCTU-Cheetah’s mechanical complexity and weight are between EPFL-CheetahCub and Oncilla.  
+
+![image]
+Fig. 6 illustrates the front view and the side view of NCTU-Cheetah robot. The dimensions of NCTU-Cheetah robot is about 18cm (W) x 24cm (H) x 30cm (L) when it stands still. The weight (including 12 servo motors) of a real NCTU-Cheetah robot is 1.6Kg. The detailed geometric information of every mechanical link can be checked by importing the open sourced V-REP scene file (*.ttt) into V-REP simulator by readers.
+  
