@@ -1,1 +1,1 @@
-A V-REP file for the cheetah.
+A V-REP file for NCTU-cheetah simulation.
