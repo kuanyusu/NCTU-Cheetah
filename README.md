@@ -13,11 +13,11 @@ sourced here.
 ## Introduction
 Legged robots have stronger abilities to move in non-flat terrain than the wheeled robots. The compliant leg mechanism has the following three superiorities with respect to the rigid leg mechanism in terms of robot motion:  
 
->> ●	Efficiency: Using mechanical energy storage/release to improve the energy efficiency of motion.  
+> ●	Efficiency: Using mechanical energy storage/release to improve the energy efficiency of motion.  
 
->> ●	Simplification: Using the self-balanced relationship of overall geometry and dynamic structures between the compliant legs and torso to reduce the complexity of gait controller design.  
+> ●	Simplification: Using the self-balanced relationship of overall geometry and dynamic structures between the compliant legs and torso to reduce the complexity of gait controller design.  
 
->> ● Robustness: The compliant leg structure has a high tolerance to the motion disturbances imposed by the real world.  
+> ● Robustness: The compliant leg structure has a high tolerance to the motion disturbances imposed by the real world.  
 
 The superiorities mentioned above can be seen in many mammals, including humans. 
 The motivation of this project is to design a compliant leg mechanism suitable for low-cost quadruped pet robots. With this compliant leg mechanism, it has the advantages of low complexity, easy assembly, and quick walking.
